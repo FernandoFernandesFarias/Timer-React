@@ -1,0 +1,33 @@
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(82, 83, 84);
+  color: aliceblue;
+  -webkit-box-shadow: 13px 12px 19px -10px rgba(0,0,0,0.47);
+  -moz-box-shadow: 13px 12px 19px -10px rgba(0,0,0,0.47);
+  box-shadow: 13px 12px 19px -10px rgba(0,0,0,0.47);
+}
+
+.buttons .start:hover {
+  background-color: rgb(77, 215, 77);
+  transition: 0.3s;
+}
+
+.buttons .stop:hover {
+  background-color: rgb(57, 59, 59);
+  transition: 0.3s;
+}
+
+  .buttons .clear:hover {
+  background-color: rgb(227, 59, 59);
+  transition: 0.3s;
+}

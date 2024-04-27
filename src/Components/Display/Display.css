@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 8rem;
+  background-color: #282729;
+  color: aliceblue;
+  padding: 2rem;
+  border-radius: 0 10px 10px 10px;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 13px 12px 19px -10px rgba(0,0,0,0.47);
+  -moz-box-shadow: 13px 12px 19px -10px rgba(0,0,0,0.47);
+  box-shadow: 13px 12px 19px -10px rgba(0,0,0,0.47);
+}
+
+.container .separator {
+  font-size: 5rem;
+}
