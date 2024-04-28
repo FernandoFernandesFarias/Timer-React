@@ -1,17 +1,11 @@
 import './App.css'
-import Display from './Components/Display/Display'
-import Buttons from './Components/Buttons/Buttons'
+import Timer from './Components/Timer/Timer'
 
 function App() {
 
   return (
     <div className="App">
-      <div>
-        <Display/>
-      </div>
-      <div>
-        <Buttons/>
-      </div>
+        <Timer></Timer>
     </div>
   )
 }
